@@ -2,7 +2,7 @@ name: Deploy(部署到云) #部署脚本每次执行就是部署最新代码上�
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2,14 * * *'
+    - cron: '10 2,14 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-latest
